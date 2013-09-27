@@ -12,7 +12,10 @@ These diagrams are derived from my [IsometricWorldExample][0]
 
 _This is out dated as I'm not combining both activities into one anymor_
 
-The premise is understand the execution flow of things, this helps managing things like resuming and where certain code should go
+The premise is understand the execution flow of things, this helps managing things like resuming and where certain code should go.
+The activity uses fragments for the menus, so it is having to deal with swapping fragments in and out while also pressing the home and back button.
+
+I've tried at the start of flows to put some meaningful text to describe the action.  
 
 These diagrams are based on having an activity which extends 
 >org.andengine.ui.activity.fragments.compatibility.LayoutGameFragment
